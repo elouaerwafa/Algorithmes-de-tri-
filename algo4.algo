@@ -1,0 +1,18 @@
+ALGORITHM tri
+// déclaration des variables
+VAR
+    T: ARRAY;
+    i,j,k:=INTEGER
+BEGIN
+// faire le tri
+    FOR i FROM 1 TO n-1 STEP 1  DO
+        k:=T[i]
+        j:=j-1
+        WHILE (j>=0 and T[j]>k) DO
+            T[j+1]:=T[J]
+            j:=j-1
+            T[j+1]:=k
+        END_WHILE
+    END_FOR
+END
+
